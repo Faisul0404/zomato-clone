@@ -119,8 +119,8 @@ body {
     }
 .food__menu__card {
     background-color: white;
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
+    margin-top: 30px;
+    margin-bottom: 30px; 
     
 }
 .food__menu__card__image {
@@ -138,10 +138,26 @@ body {
     color: black;
     font-weight: 900;
 }
+.text-x1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #1d3557;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: -10px;
+}
 
 
 .restaurant__list__container {
     margin-top: 3rem;
+}
+.text-x2 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #1d3557;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.2rem;
 }
 .restaurant__list__row1 {
     display: flex;
@@ -236,8 +252,21 @@ body {
         text-align: center;
         margin-bottom: 50px;
     }
+    .restaurant__list__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .restaurant__list__row1 {
+        justify-content: center;
+    }
+    .restaurant__list__row2 {
+        margin-top: 3px;
+        align-items: flex-start;
+        justify-content: center;
+    }
 
-    
+
 
 
 
